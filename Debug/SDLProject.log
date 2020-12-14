@@ -1,0 +1,12 @@
+﻿  main.cpp
+main.obj : error LNK2019: symbole externe non résolu _SDL_CreateWindow référencé dans la fonction _SDL_main
+main.obj : error LNK2019: symbole externe non résolu _SDL_CreateRenderer référencé dans la fonction _SDL_main
+main.obj : error LNK2019: symbole externe non résolu _SDL_SetRenderDrawColor référencé dans la fonction _SDL_main
+main.obj : error LNK2019: symbole externe non résolu _SDL_RenderClear référencé dans la fonction _SDL_main
+main.obj : error LNK2019: symbole externe non résolu _SDL_RenderPresent référencé dans la fonction _SDL_main
+main.obj : error LNK2019: symbole externe non résolu _SDL_Delay référencé dans la fonction _SDL_main
+main.obj : error LNK2019: symbole externe non résolu _SDL_Init référencé dans la fonction _SDL_main
+MSVCRTD.lib(exe_main.obj) : error LNK2019: symbole externe non résolu _main référencé dans la fonction "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\GARNON\Desktop\Projet-MATHIS\SDL2-2.0.12\lib\x64\SDL2.lib : warning LNK4272: type d'ordinateur bibliothèque 'x64' en conflit avec le type d'ordinateur cible 'x86'
+C:\Users\GARNON\Desktop\Projet-MATHIS\SDL2-2.0.12\lib\x64\SDL2main.lib : warning LNK4272: type d'ordinateur bibliothèque 'x64' en conflit avec le type d'ordinateur cible 'x86'
+C:\Users\GARNON\Desktop\Projet-MATHIS\SDLProject\Debug\SDLProject.exe : fatal error LNK1120: 8 externes non résolus
